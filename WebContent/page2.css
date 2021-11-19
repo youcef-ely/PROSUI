@@ -1,0 +1,316 @@
+.monprojet {
+	
+	width : 70%;
+	background-color: white;
+	height : 30%;
+	border-radius: 10px;
+	left: 50%;
+	padding: 10px ;
+	top: 50%;
+	margin-top: 10%;
+	margin-left: 15%; 
+	
+}
+
+.monprojet th {
+	text-decoration: underline;
+	font-weight: bolder;
+	color:SlateGray;
+	width:7%;
+	
+}
+
+
+.monprojet td {
+	text-align: center;
+	padding: 16px;
+	border-bottom: 1px solid;
+	width: 7%;
+}
+
+.monprojet  h1{
+	font-family: 'Courgette', cursive;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-left: 2%;
+}
+
+
+
+.profil {
+	width: 380px;
+	background: white;
+	height: 450px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	
+} 
+
+.profil table {
+	margin-bottom: 80px;
+}
+
+.profil caption h1{
+	font-family: 'Courgette', cursive;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.profil table td{
+	padding: 5px;
+
+}
+
+.profil td{
+	
+	text-align: center;
+	position: relative;
+	border-bottom: 1px solid ;
+	font-family: Lucida Sans;
+	margin: 30px 0;
+}
+
+
+.selected li:hover{
+	background-color: grey;
+}
+
+.selected ul {
+	display: none;
+}
+
+.selected a{
+	color: white;
+}
+
+.selected li:hover ul {
+	display: block;
+	background-color: #101010;
+	
+}
+.selected li:hover ul li:hover {
+	background-color: grey;
+}
+
+
+
+
+
+.form_ajouter h1{
+	
+	text-align: center;
+    font-family: 'Courgette', cursive;
+	margin-top: 15px;
+}	
+
+.form_ajouter{
+	width: 360px;
+	background: white;
+	height: 480px;
+	padding: 1px 20px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 52%;
+	transform: translate(-50%,-50%);
+	font-family: Lucida Sans;
+}
+.txtb{
+	
+	position: relative;
+	border-bottom: 2px solid #adadad;
+	font-family: Lucida Sans;
+	margin: 30px 0;
+}
+
+
+.txtb input {
+	
+	font-size: 15px;
+	color: #333;
+	border: none;
+	font-family: Lucida Sans;
+	width: 100%;
+	outline: none;
+	background: none;
+	padding: 0 5px;
+	height: 20px;
+}
+
+.txtb span::before {
+	
+	content: attr(data-placeholder);
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #adadad;
+	transfrom: translateY(-50%);
+	z-index: -1;
+	transition: .5s;
+}
+
+.txtb span::after {
+	
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	top: 50%;
+	left: 50%;
+	color: #adadad;
+	transfrom: translateY(-50%);
+	z-index: -1;
+	transition: .5s;
+}
+
+.focus + span::before{
+    top: -5px;
+}
+
+.focus + span::after{
+    width: 100%;
+}
+
+.logbtn{
+	
+	border: none;
+	display:block;
+	width: 100%;
+	height: 50px;
+	background-size: 200%;
+	font-family: Lucida Sans;
+	outline: none;
+	font-size: 25px;
+	font-weight :50px;
+	cursor: pointer;
+	transition: .5s;
+	background: SlateGray;
+	color: white;
+}
+
+
+
+
+.mdpchange{
+	border: none;
+	display:block;
+	width: 51%;
+	height: 60px;
+	background-size: 200%;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	font-weight :50px;
+	cursor: pointer;
+	transition: .5s;
+	background: SlateGray;
+	color: white;
+	padding: 10px;
+	margin-top: -50px;
+	margin-left: 80px;
+}
+
+
+.les_docs {
+	width : 40%;
+	background-color: white;
+	height : 35%;
+	border-radius: 10px;
+	left: 1000%;
+	padding: 10px ;
+	top: 50%;
+	margin-top: 10%;
+	margin-left: 30%; 
+}
+
+.les_docs th {
+	text-decoration: underline;
+	font-weight: bolder;
+	color:SlateGray;
+	
+}
+
+
+.les_docs td {
+	text-align: center;
+	padding: 16px;
+	width: 15%;
+	border-bottom: 1px solid;
+}
+
+.les_docs  h1{
+	font-family: 'Courgette', cursive;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-left: 4%;
+}
+
+
+
+.planning {
+	width : 40%;
+	background-color: white;
+	height : 35%;
+	border-radius: 10px;
+	left: 1000%;
+	padding: 10px ;
+	top: 50%;
+	margin-top: 10%;
+	margin-left: 30%; 
+	
+}
+
+
+
+.planning  h1{
+	font-family: 'Courgette', cursive;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-left: 4%;
+}
+
+.planning td {
+	text-align: center;
+	padding: 16px;
+	width: 15%;
+}
+
+
+.tache {
+	width : 40%;
+	background-color: white;
+	height : 35%;
+	border-radius: 10px;
+	left: 1000%;
+	padding: 10px ;
+	top: 50%;
+	margin-top: 10%;
+	margin-left: 30%; 
+}
+
+.tache th {
+	text-decoration: underline;
+	font-weight: bolder;
+	color:SlateGray;
+	
+}
+
+
+.tache td {
+	text-align: center;
+	padding: 16px;
+	width: 15%;
+	border-bottom: 1px solid;
+}
+
+.tache h1{
+	font-family: 'Courgette', cursive;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-left: 4%;
+}

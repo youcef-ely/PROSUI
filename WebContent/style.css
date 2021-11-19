@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	
+}
+
+body{
+	
+	min-height: 100vh;
+	background: url("/Projet/lesimages/images.jpg")  no-repeat fixed;
+	background-size: cover;
+	overflow : hidden;
+	position: relative;
+	font-family: Lucida Sans;
+}
+
+
+
+section h1{
+	
+	text-align: center;
+    font-family: 'Courgette', cursive;
+	margin-bottom: 60px;
+}	
+
+section{
+	width: 400px;
+	background: white;
+	height: 480px;
+	padding: 80px 40px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-family: Lucida Sans;
+}	
+
+button{
+	
+	background-color: SlateGray;
+	padding: 10px 10px 10px 10px;
+    text-align: center;
+   	display:block; 
+    width: 350px;
+    border-radius: 5px;
+    font-family: Lucida Sans,bolder;
+	text-align: center ;
+	border: none; 
+	color: white;
+	outline: none;
+	font-size: auto;
+	z-index: auto;
+	
+}
+
+.button1{
+
+	
+	margin-bottom: auto;
+	margin-left: -20px;
+	margin-top: 2px;
+	
+}
+
+
+.button2{
+
+	margin-right: 1000px;
+	margin-top: auto;
+	margin-left: -20px;
+	margin-bottom: 200px;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button1:hover {
+  background-color: black; 
+  color: white;
+  text-decoration: underline;
+}
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2:hover {
+  background-color: black; 
+  color: white;
+  text-decoration: underline;
+}
